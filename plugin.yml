@@ -1,0 +1,20 @@
+name: NamaPlugin
+author: Padreon 
+api: [3.0.0]
+version: 1.0
+main: Padreon/Main
+
+#Untuk plugin yg memakai command
+command:
+	test:
+		description: Deskripsi
+		usage: /test
+	test1:
+		description: Deskripsi
+		usage: /test1
+permissions:
+	cmdname.command:
+		default: true
+                       #bisa true/op
+	cmd2name.command:
+		default: true
